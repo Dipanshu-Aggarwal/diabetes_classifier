@@ -48,6 +48,6 @@ def predict():
     return render_template('forms.html', data = resp)
     # Showing the response on the forms page itself.
 # running the app - it must always be the last command. 
-app.run(debug = 'True')
+app.run(debug = True)
 # the debug = True attribute makes sure that we do not have to execute 
 # the file again and again to save changes to the server. 
